@@ -1,0 +1,21 @@
+{
+  "name": "harvest-holidays",
+  "version": "0.1.0",
+  "description": "Insert all 2016 statutory holidays",
+  "author": "Chang Wang <cheapsteak@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "harvest",
+    "holidays"
+  ],
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "harvest": "^0.1.4",
+    "lodash": "^3.9.1",
+    "moment": "^2.11.1"
+  }
+}
